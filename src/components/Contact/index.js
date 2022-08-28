@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="text-zone">
           <h1>Contact Me</h1>
           <p>Send me a message:</p>
-          <div className="contact form">
+          <div className="contact-form">
             <form>
               <ul>
                 <li className="half">
