@@ -37,3 +37,41 @@
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
 }
+
+.about-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+  }
+
+    h1 {
+        font-size: 50px;
+        font-family: 'Coolvetica';
+        color: #fff;
+        font-weight: 400;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: 40px;
+        left: -10px;
+    }
+
+    p {
+      font-size: 13px;
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: 300;
+        max-width: fit-content;
+    }
+
+    // .text-animate-hover {
+    //   &:hover {
+    //     color: blue;
+    //   }
+    // }
+  }

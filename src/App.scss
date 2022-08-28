@@ -1,6 +1,8 @@
-$primary-color: #3b4d61;
+// $primary-color: #3b4d61;
+$primary-color: #fff;
 
 @import 'animate.css';
+@import '~loaders.css/src/animations/line-scale-pulse-out.scss';
 
 @font-face {
   font-family: 'Helvetica Neue';
