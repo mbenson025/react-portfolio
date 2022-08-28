@@ -7,11 +7,12 @@ const About = () => {
       <div className="container about-page">
         <div className="text-zone">
           <h1>About Me</h1>
+
+          <p>
+            I'm a passionate full stack developer from Chicago, IL. In my free
+            time I like to going hiking with my dog.
+          </p>
         </div>
-        <p>
-          I'm a passionate full stack developer from Chicago, IL. In my free
-          time I like to going hiking with my dog.
-        </p>
       </div>
       <Loader type="line-scale-pulse-out" />
     </>
