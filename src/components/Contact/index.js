@@ -1,7 +1,33 @@
 import './index.scss';
 import Loader from 'react-loaders';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+// import { useEffect, useState } from 'react';
 
 const Contact = () => {
+  const refForm = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_yrakz9r',
+        'template_c69lwtw',
+        refForm.current,
+        'n9TGLbDJevl2Z9xhF'
+      )
+      .then(
+        () => {
+          alert('Message sent!');
+          window.location.reload(false);
+        },
+        () => {
+          alert('Failed to send message');
+        }
+      );
+  };
+
   return (
     <>
       <div className="container contact-page">
@@ -9,7 +35,7 @@ const Contact = () => {
           <h1>Contact Me</h1>
           <p>Send me a message:</p>
           <div className="contact-form">
-            <form>
+            <form ref={refForm} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input type="text" name="name" placeholder="Name" required />
