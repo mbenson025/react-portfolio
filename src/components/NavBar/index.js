@@ -1,20 +1,23 @@
 import './index.scss';
 import { Link, NavLink } from 'react-router-dom';
-import LogoMB from '../../assets/images/mblogo2.png';
-import LogoSubtitle from '../../assets/images/logo3.png';
+import LogoMB from '../../assets/images/mlogo.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import {
+  faHome,
+  faAddressCard,
+  faLaptopCode,
+  faComment,
+} from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = () => (
   <div className="nav-bar">
     <Link className="logo" to="/">
       <img src={LogoMB} alt="logo" />
-      <img src={LogoSubtitle} className="sub-logo" alt="logosub" />
     </Link>
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
-        <FontAwesomeIcon icon={faHome} color="4d4d4e" />
+        <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
       </NavLink>
       <NavLink
         exact="true"
@@ -22,7 +25,15 @@ const NavBar = () => (
         className="about-link"
         to="/about"
       >
-        <FontAwesomeIcon icon={faUser} color="4d4d4e" />
+        <FontAwesomeIcon icon={faAddressCard} color="#4d4d4e" />
+      </NavLink>
+      <NavLink
+        exact="true"
+        activeclassname="active"
+        className="projects-link"
+        to="/projects"
+      >
+        <FontAwesomeIcon icon={faLaptopCode} color="#4d4d4e" />
       </NavLink>
       <NavLink
         exact="true"
@@ -30,7 +41,7 @@ const NavBar = () => (
         className="contact-link"
         to="/contact"
       >
-        <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
+        <FontAwesomeIcon icon={faComment} color="#4d4d4e" />
       </NavLink>
     </nav>
     <ul>
@@ -40,7 +51,7 @@ const NavBar = () => (
           rel="noreferrer"
           href="https://www.linkedin.com/in/mason-benson-6591b5102"
         >
-          <FontAwesomeIcon icon={faLinkedin} color="4d4d4e" />
+          <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
         </a>
       </li>
       <li>
@@ -49,7 +60,7 @@ const NavBar = () => (
           rel="noreferrer"
           href="https://github.com/mbenson025"
         >
-          <FontAwesomeIcon icon={faGithub} color="4d4d4e" />
+          <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
         </a>
       </li>
     </ul>
