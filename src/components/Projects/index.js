@@ -1,7 +1,6 @@
 import React from 'react';
 import Loader from 'react-loaders';
 import './index.scss';
-// import { Container, Card, Button, Row } from 'react-bootstrap';
 
 const Projects = () => {
   return (
