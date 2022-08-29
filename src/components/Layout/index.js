@@ -17,8 +17,8 @@ const Layout = () => {
             <span className="bottom-tag-html"></span>
           </span>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };

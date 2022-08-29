@@ -23,9 +23,6 @@ const Footer = () => {
         </a>
       </div>
       <p>&copy; MB 2022 </p>
-      {/* <a target="_blank" rel="noreferrer" href="https://github.com/mbenson025">
-        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
-      </a> */}
     </div>
   );
 };
