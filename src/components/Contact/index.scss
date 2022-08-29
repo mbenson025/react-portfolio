@@ -55,18 +55,23 @@
       min-height: 170px;
     }
     .flat-button {
-      color: #fff;
+      color: #ffd700;
       font-size: 11px;
       letter-spacing: 3px;
       text-decoration: none;
       padding: 8px 10px;
-      border: 1px solid #fff;
+      border: 1px solid #ffd700;
       float: left;
       border-radius: 4px;
       background: 0 0;
       text-transform: uppercase;
       text-align: center;
       margin-right: 10px;
+
+      &:hover {
+          background: #fff;
+          color: #333;
+        }
     }
 }
 

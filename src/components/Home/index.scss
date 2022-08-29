@@ -60,21 +60,21 @@
   }
 
   .flat-button {
-    color: #005eb9;
+    color: #010B11;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid #005eb9;
+    border: 1px solid #010B11;
     margin-top: 25px;
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {
-      background: #005eb9;
+      background: #010B11;
       color: #333;
     }
   }
