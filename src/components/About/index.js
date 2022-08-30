@@ -1,5 +1,7 @@
 import './index.scss';
 import Loader from 'react-loaders';
+import Logo from './Logo';
+// import Profile from '../../../assets/images/profilereact.jpg';
 
 const About = () => {
   return (
@@ -24,6 +26,7 @@ const About = () => {
             Mongoose, Postman, Insomnia, RESTful APIs and Server Side APIs
           </p>
         </div>
+        <Logo />
       </div>
       <Loader type="line-scale-pulse-out" />
     </>
