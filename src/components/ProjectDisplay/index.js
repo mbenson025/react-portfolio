@@ -26,10 +26,10 @@ const ProjectDisplay = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href={project.repo}
+            href={project.deployed}
             className="flat-button"
           >
-            <strong>GitHub</strong>
+            <strong>Live App</strong>
           </a>
         </div>
       </div>
