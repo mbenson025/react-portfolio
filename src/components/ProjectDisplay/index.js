@@ -17,7 +17,7 @@ const ProjectDisplay = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/mbenson025"
+          href={project.repo}
           className="flat-button"
         >
           <strong>GitHub</strong>
