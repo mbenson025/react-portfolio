@@ -5,7 +5,7 @@ import ProjectFour from '../assets/images/logo3.png';
 import ProjectFive from '../assets/images/logo3.png';
 import ProjectSix from '../assets/images/logo3.png';
 
-export const ProjectList = [
+export const projectList = [
   {
     name: 'MVC Tech Blog',
     image: ProjectOne,

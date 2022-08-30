@@ -2,15 +2,15 @@ import React from 'react';
 import Loader from 'react-loaders';
 import './index.scss';
 import ProjectItem from './ProjectItems';
-import { ProjectList } from '../../helpers/ProjectList';
+import { projectList } from '../../helpers/ProjectList';
 
 const Projects = () => {
   return (
     <>
       <div className="projects">
         <h1>My Projects</h1>
-        <div classname="projectList">
-          {ProjectList.map((project) => {
+        <div className="projectList">
+          {projectList.map((project) => {
             return <ProjectItem name={project.name} image={project.image} />;
           })}
         </div>
