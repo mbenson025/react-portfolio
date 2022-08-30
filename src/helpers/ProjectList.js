@@ -1,9 +1,9 @@
-import ProjectOne from '../assets/images/logo3.png';
-import ProjectTwo from '../assets/images/logo3.png';
-import ProjectThree from '../assets/images/logo3.png';
-import ProjectFour from '../assets/images/logo3.png';
-import ProjectFive from '../assets/images/logo3.png';
-import ProjectSix from '../assets/images/logo3.png';
+import ProjectOne from '../assets/images/tb.jpg';
+import ProjectTwo from '../assets/images/gethigher.png';
+import ProjectThree from '../assets/images/emptracker.jpg';
+import ProjectFour from '../assets/images/wd.jpg';
+import ProjectFive from '../assets/images/daysched.jpg';
+import ProjectSix from '../assets/images/hike.jpg';
 
 export const projectList = [
   {
@@ -15,11 +15,11 @@ export const projectList = [
     image: ProjectTwo,
   },
   {
-    name: 'Weather Dashboard',
+    name: 'Employee Tracker',
     image: ProjectThree,
   },
   {
-    name: 'Employee Tracker',
+    name: 'Weather Dashboard',
     image: ProjectFour,
   },
   {
