@@ -14,7 +14,14 @@ const ProjectDisplay = () => {
         <p>
           <strong>Skills:</strong> {project.skills}
         </p>
-        <a>GitHub link</a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/mbenson025"
+          className="flat-button"
+        >
+          <strong>GitHub</strong>
+        </a>
       </div>
     </>
   );
