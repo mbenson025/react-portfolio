@@ -25,7 +25,7 @@ export const projectList = [
     name: 'Employee Tracker',
     image: ProjectThree,
     repo: 'https://github.com/mbenson025/employee-tracker',
-    deployed: '',
+    deployed: 'https://github.com/mbenson025/employee-tracker',
     skills: 'MySQL, JavaScript, Node.js, Inquirer',
   },
   {
