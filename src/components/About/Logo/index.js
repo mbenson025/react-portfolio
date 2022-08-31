@@ -3,8 +3,8 @@ import Profile from '../../../assets/images/profilereact.jpg';
 
 const Logo = () => {
   return (
-    <div className="logo-container">
-      <img className="solid-logo" src={Profile} alt="Profile" />
+    <div className="profile-container">
+      <img className="solid-profile" src={Profile} alt="Profile" />
     </div>
   );
 };
